@@ -2,7 +2,9 @@ name: CICD
 
 on:
   push:
-    branches: [cicd-docker-ec2]
+    branches:
+        - main
+        - cicd-docker-ec2
 
 jobs:
   build:
